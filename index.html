@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sports Gif Generator</title>
+  <link rel="stylesheet" type="text/css" href="../Giphy/assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="../Giphy/assets/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="../Giphy/assets/javascript/giphy.js"></script>
+</head>
+<body>
+	<!-- Gif Header -->
+	<h1>Search for Sports Gifs</h1>
+	<br>
+	
+	<!-- Rendered Buttons will get Dumped Here  -->
+    <div id="buttons-view">
+    </div>
+	<br>
+	
+	<!-- Form will be used to create new sports topics -->
+	<form id="sports-form">
+      <!-- This will label input field -->
+      <label for="sports-input">Add a Sport Bro</label>
+      <input type="text" id="sports-input"><br>
+
+      <!-- Button triggers new sport to be added -->
+      <input id="add-sports" type="submit" value="Submit" class="btn btn-default buttonSpace">
+    </form>
+    <br>
+    
+    <!-- Sports Topic Images will get dumped here -->
+	<div id="gif">	
+	</div>
+</body>
+</html>
